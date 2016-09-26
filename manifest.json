@@ -1,6 +1,6 @@
 {
-  "name": "Maztoul",
-  "short_name": "OneSignalExample",
+  "name": "Welcome to Maztoul.com",
+  "short_name": "Maztoul",
   "start_url": "/",
   "display": "standalone",
   "gcm_sender_id": "482941778795"
