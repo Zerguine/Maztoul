@@ -1,1 +1,18 @@
 {"gcm_user_visible_only":true,"gcm_sender_id":"576352449549"}
+
+
+
+
+// REST RESPONSE EXAMPLE: SUCCESS
+{
+    "success" : true
+}
+
+
+// REST RESPONSE EXAMPLE: FAILURE
+
+{
+    "success" : false,
+    "error" : "Missing required attribute: alert",
+    "code" : 1
+}
