@@ -1,0 +1,74 @@
+﻿<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<style type="text/css">
+body {margin: 0;padding: 0;}
+textarea {
+  background-color: #020202;
+  border: 0 none;
+  color: #2AAB0C;
+  direction: ltr;
+  display: block;
+  float: right;
+  font: 14px arial;
+  height: 300px;
+  padding: 5px;
+  text-align: right;
+  width: 100%;
+} 
+input {
+  background-color: #eee;
+  border: 0 none;
+  box-shadow: 0 0 1px #bbb inset;
+  color: #444;
+  cursor: pointer;
+  display: block;
+  float: right;
+  font: bold 14px tahoma;
+  margin-top: -1px;
+  padding: 5px 0 8px;
+  text-align: center;
+  transition: all 0.7s ease 0s;
+  width: 50%;
+  height: 40px;
+}
+input:hover { background-color: #2196F3; color: #fff;}
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+function html2entities(){
+var re=/[<>"'&]/g
+for (i=0; i<arguments.length; i++)
+arguments[i].value=arguments[i].value.replace(re, function(m){return replacechar(m)})
+}
+function replacechar(match){
+if (match=="<")
+return "&lt;"
+else if (match==">")
+return "&gt;"
+else if (match=="\"")
+return "&quot;"
+else if (match=="'")
+return "&#039;"
+else if (match=="&")
+return "&amp;"
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+//Character count script
+function countit(what){
+formcontent=what.form.charcount.value
+what.form.displaycount.value=formcontent.length
+}
+//]]>
+</script>
+<form>
+<textarea name="data1" placeholder="محول الأكواد يمكنك إستخدام محول  لتعديل تكويد السكربتات التي لا يقبلها القالب مثل الشفرات الإعلانية لأدسنس أو حسوب أو لإضافة اكواد في تعليقات بلوجر"></textarea><br>
+<input class="tahwelcnmu" name="button"  onclick="html2entities(this.form.data1)" value="تشفير" type="button"> 
+<input class="hazfcnmu"name="Clear" value="مسح" type="reset">
+</form>
+</body></html>
+
