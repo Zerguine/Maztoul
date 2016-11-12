@@ -1000,6 +1000,8 @@ color: #BA0069;
 border-bottom: 1px solid #DDD;
 padding-bottom: 5px;
 margin: 10px 0;
+font-size: 11px;
+font-family: "Droid Arabic Kufi",serif;
 }
 .photoDetails .report {
 color: #BA0069;
