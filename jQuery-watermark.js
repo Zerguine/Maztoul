@@ -1,7 +1,7 @@
 
 
     $('.watermark').watermark({
-        text: 'GOOGLE.COM',
+        text: 'fb.com/Askmaztol',
         textWidth: 100,
         gravity: 'w',
         opacity: 1,
