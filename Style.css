@@ -1497,12 +1497,11 @@ display: inline-block;
 #sidebar h2, div.box h3 {
     font-size: 15px;
     text-align: center;
-    background-color: #D4D4D4;
     height: 34px;
     line-height: 34px;
     margin: 0 0 4px 0;
 	font-family: &#39;Droid Arabic Naskh&#39;, serif;
-    border-bottom: 4px solid #fe112d;
+    border-bottom: 4px solid #2196F3;
 }
 #sidebar .widget, div.box {
 margin: 0 0 10px 0;
