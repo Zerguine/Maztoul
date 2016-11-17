@@ -1595,9 +1595,7 @@ margin: 0;
 text-indent: 0;
 }
 
-.blog-pager-older-link, .home-link, .blog-pager-newer-link {
-    display: none;
-}
+
 
 /* selection background-color ---------------------------- */
 
