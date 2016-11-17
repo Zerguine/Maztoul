@@ -214,25 +214,6 @@ margin-top: 3px;
 #loginPanel {
 float: left;
 }
-#loginPanel .loginButton, #loginPanel .profileButton {
-width: 60px;
-margin: 6px 0 0;
-color: #fff;
-display: block;
-line-height: 30px;
-padding: 0 12px;
-border-radius: 3px;
-font-size: 14px;
-background-color: #FF3C1F;
-font-weight: bold;
-margin-left: 25px;
-font-family: &#39;Droid Arabic Kufi&#39;, serif;
-text-align: center;
-}
-#loginPanel .loginButton:hover, .searchButton:hover {
-background-color: #555;
-color: white
-}
 #loginPanel .loginButton:active{
 }
 #loginPanel .profileButton {
