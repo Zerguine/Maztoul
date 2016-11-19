@@ -139,18 +139,15 @@ content: &quot; *&quot;;
 content: &quot;&quot;;
 }
 #header  {
-background-color: #1F1F1F;
-border-bottom: 1px solid #333;
-margin: auto 0;
-color: #C5C5C5;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-z-index: 999;
-box-shadow: 0 2px 0 0 #262626, 0 -1px 0 0 #171717;
--moz-box-shadow: 0 2px 0 0 #262626, 0 -1px 0 0 #171717;
-background: #252525 url(https://2.bp.blogspot.com/-2W1eMocgpew/VoVAcjWtNiI/AAAAAAAAHwU/mUS8cRVZhVM/s1600/bg.png) repeat-x;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background-color: rgb(63, 63, 63);
+    background-image: -webkit-linear-gradient(top, rgb(105, 105, 105), rgb(63, 63, 63));
+    box-shadow: rgb(51, 51, 51) 0px 0px 10px;
+    height: 42px;
+    top: calc(0px);
 }
 #headerContent {
 width: 1116px;
@@ -982,7 +979,7 @@ border-bottom: 1px solid #DDD;
 padding-bottom: 5px;
 margin: 10px 0;
 font-size: 11px;
-font-family: "Droid Arabic Kufi",serif;
+font-family: &quot;Droid Arabic Kufi&quot;,serif;
 }
 .photoDetails .report {
 color: #BA0069;
@@ -1597,6 +1594,24 @@ text-indent: 0;
 
 
 
+.home-link, .blog-pager-newer-link {
+    display: none;
+}
+
+a .blog-pager-older-link {
+float: left;
+width: 98%;
+color: white;
+margin-bottom: 10px;
+font-family: &#39;Droid Arabic Kufi&#39;, serif;
+font-size: 15px;
+}
+
+
+
+
+
+
 /* selection background-color ---------------------------- */
 
 ::selection {background-color: #cc0000; color: #fff;}
@@ -1927,3 +1942,4 @@ width: 350px;
 }
 
 /* ADs Home end  ---------------------------- */
+
