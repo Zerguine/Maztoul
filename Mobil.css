@@ -1,13 +1,23 @@
+
 /* media query  ---------------------------- */
 
 @media all and (max-width: 1024px) {
-
 
 	img
 	{
 		max-width:100%;
 		height:auto
 	}
+
+
+#sidebar .widget, div.box {
+padding: 25px 15px 5px;
+}
+
+#content {
+    margin: 45px 0 0;
+}
+
 
 #headerContent {
     width: 1024px;
@@ -391,6 +401,7 @@ margin-bottom:20px;
 @media all and (max-width: 600px) {
 
 
+
 .adsunderf { margin-bottom: 0; width: 100%;}
 .adsunderf span {
 float: none;
@@ -405,11 +416,15 @@ margin-bottom:20px;
 }
     
 
-img {
-	    max-width:100%;
+
+
+.separator img {
+  max-width:100%;
 		display:block;
 		height:auto
 }
+
+
 
 
 	#related-title
@@ -622,6 +637,12 @@ img {
 
 
 @media all and (max-width: 360px) {
+ 
+
+#rightColumn {
+    display: NONE;
+}
+
 
 .photoDetails .featuredFanPage {
 
@@ -668,7 +689,7 @@ img {
 	#related-posts .related_img
 	{
 		width: 320px;
-        height: 110px;
+        height: 150px;
 	}
 	
 
@@ -724,8 +745,7 @@ img {
 
 
 .photoDetails .featuredFanPage {
-
-    display: NONE;
+display: NONE;
 }
 
 #loginPanel {
@@ -755,7 +775,7 @@ img {
 	#related-posts .related_img
 	{
 		width:280px;
-		height:109px
+		height:129px
 	}
 	
 	a.nextListPage
