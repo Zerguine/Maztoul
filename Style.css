@@ -1943,3 +1943,58 @@ width: 350px;
 
 /* ADs Home end  ---------------------------- */
 
+.post-body img {
+  max-width:100%;
+  height:auto;
+}
+
+
+img.emoji {
+height: 1em;
+width: 1em;
+margin: 0 .05em 0 .1em;
+vertical-align: -0.1em;
+}
+
+#ContactForm1 {display:none;}
+.PopularPosts .widget-content ul li img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+
+.blog-pager-older-link {
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #00A5F0;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-transition: background-color .2s linear;
+    -moz-transition: background-color .2s linear;
+    text-shadow: 0 -1px rgba(0, 0, 0, .2);
+    text-align: center;
+    min-width: 45px;
+    cursor: pointer;
+    color: white;
+}
+
+a.blog-pager-older-link {
+float: left;
+width: 98%;
+color: white;
+margin-bottom: 10px;
+font-family: &#39;Droid Arabic Kufi&#39;, serif;
+font-size: 15px;
+background-color: #00A5F0;
+}
+
+a.blog-pager-older-link:hover {
+background-color: #35BBF8;
+color: white;
+}
