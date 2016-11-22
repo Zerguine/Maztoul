@@ -3,6 +3,10 @@
   "short_name": "Maztoul",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "landscape"  
+  "background_color": "#fff",
+  "theme_color": "#222",
+  "description": "The official website Maztoul.com .",
   "icons": [
   {
    "src": "\/android-icon-36x36.png",
